@@ -1,0 +1,26 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay-gotmare/url-shortener.git"
+  },
+  "author": "Akshay Gotmare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay-gotmare/url-shortener/issues"
+  },
+  "homepage": "https://github.com/akshay-gotmare/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.4",
+    "shortid": "^2.2.16"
+  }
+}
